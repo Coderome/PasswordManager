@@ -29,9 +29,12 @@ Password_label.grid(column=0, row=3)
 
 website_entry = Entry(width= 35)
 website_entry.grid(column=1, row=1, columnspan= 2)
+website_entry.focus()
+
 
 email_username_entry = Entry(width = 35)
 email_username_entry.grid(column=1, row=2, columnspan= 2)
+email_username_entry.insert(0, "tomtomi@gmail.com")
 
 password_entry = Entry(width=21)
 password_entry.grid(column=1, row=3)
